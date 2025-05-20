@@ -26,5 +26,16 @@ nav {
 
 .grid {
 	height: 100vh; /* nastavíme výšku gridu přes celou stránku */
+	display: grid;
+	grid-template-columns: 20vw auto 20vw ;
+	grid-template-rows: 20vh auto 20vh ;
 }
-
+nav{
+	grid-row: 1 / span 3;
+}
+header{
+	grid-column: span 2;
+}
+aside{
+	grid-row: span 2;
+}

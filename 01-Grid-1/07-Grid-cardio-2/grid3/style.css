@@ -17,6 +17,8 @@
     padding: 10px;
     border: 1px dashed red;
     background-color: #ffffcc;
+    display: grid;
+    grid-template-columns: 1fr 100px 100px 2fr;
 }
 
 /* ---------------------------------------------------- */
