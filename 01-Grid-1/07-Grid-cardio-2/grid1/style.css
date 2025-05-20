@@ -21,3 +21,21 @@
 
 /* ---------------------------------------------------- */
 /* ZDE NAPIŠ VLASTNÍ CSS */
+
+.kontejner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.prvni{
+    grid-column: 3;
+}
+.druhy{
+    grid-column: 1;
+}
+.ctvrty{
+    grid-column: 2;
+}
+.ctverecek{
+    grid-row: 1;
+}
+
